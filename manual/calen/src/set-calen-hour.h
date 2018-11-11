@@ -1,4 +1,4 @@
 #pragma once
 #include <calen.public>
 
-extern int set_calen_hour (int, calen*);
+extern int set_calen_hour (unsigned int, calen*);

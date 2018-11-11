@@ -13,7 +13,7 @@
  * @return this return an integer that is if success then 0, otherwise non-zero.
  */
 
-int init_calen (int year, int month, int day, int hour, int minute, int second, calen *calout){
+int init_calen (unsigned int year, unsigned int month, unsigned int day, unsigned int hour, unsigned int minute, unsigned int second, calen *calout){
   if (!(1 <= year)) return 1;
   if (!(1 <= month && month <= 12)) return 1;
   if (!(1 <= day && day <= calen_month_of_days(year, month))) return 1;

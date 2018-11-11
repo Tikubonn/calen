@@ -16,12 +16,12 @@
  */
 
 typedef struct calen {
-  int year;
-  int month;
-  int day;
-  int hour;
-  int minute;
-  int second;
+  unsigned int year;
+  unsigned int month;
+  unsigned int day;
+  unsigned int hour;
+  unsigned int minute;
+  unsigned int second;
 } calen;
 
 /**
@@ -37,4 +37,4 @@ typedef uint64_t calen_time;
  * this type can contain the identify of weekday.
  */
 
-typedef int calen_weekday;
+typedef unsigned int calen_weekday;

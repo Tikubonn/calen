@@ -10,7 +10,7 @@
  * @return return an integer that is if success then 0, otherwise non-zero.
  */
 
-static int __increase_calen_year (int year, calen *calio){
+static int __increase_calen_year (unsigned int year, calen *calio){
   calio->year += year;
   return 0;
 }
@@ -24,7 +24,7 @@ static int __increase_calen_year (int year, calen *calio){
  * @return return an integer that is if success then 0, otherwise non-zero.
  */
 
-static int __increase_calen_month (int month, calen *calio){
+static int __increase_calen_month (unsigned int month, calen *calio){
   int monthsum = (calio->month -1) + month;
   if (__increase_calen_year(monthsum / 12, calio)){
     return 1;

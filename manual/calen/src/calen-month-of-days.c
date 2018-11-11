@@ -9,7 +9,7 @@
  * @return return checked result.
  */
 
-static bool __uruup (int year){
+static bool __uruup (unsigned int year){
   return 
     (year % 400 == 0) ||
     ((year % 4 == 0) && 
@@ -25,7 +25,7 @@ static bool __uruup (int year){
  * @return month of days.
  */
 
-int calen_month_of_days (int year, int month){
+int calen_month_of_days (unsigned int year, unsigned int month){
   switch (month){
     case  1: return 31;
     case  2: return __uruup(year) ? 29: 28;

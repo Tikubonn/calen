@@ -8,7 +8,7 @@
  * @return return an integer that is if success then 0, otherwise non-zero.
  */
 
-int set_calen_minute (int minute, calen *calout){
+int set_calen_minute (unsigned int minute, calen *calout){
   if (!(0 <= minute && minute <= 59)){
     return 1;
   }

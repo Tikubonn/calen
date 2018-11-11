@@ -8,7 +8,7 @@
  * @return return an integer that is if success then 0, otherwise non-zero.
  */
 
-int set_calen_day (int day, calen *calout){
+int set_calen_day (unsigned int day, calen *calout){
   if (!(1 <= day && day <= calen_month_of_days(calout->year, calout->month))){
     return 1;
   }

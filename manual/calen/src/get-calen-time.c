@@ -8,7 +8,7 @@
  * @return return checked result as boolean.
  */
 
-static bool __uruup (int year){
+static bool __uruup (unsigned int year){
   return 
     (year % 400 == 0) || 
     ((year % 4 == 0) &&
@@ -23,7 +23,7 @@ static bool __uruup (int year){
  * @return spent month of days as calen_time type.
  */
 
-static calen_time __spent_month_of_days (int year, int month){
+static calen_time __spent_month_of_days (unsigned int year, int month){
   switch (month){
     case  1: return 0;
     case  2: return 31;
@@ -51,7 +51,7 @@ static calen_time __spent_month_of_days (int year, int month){
 
 static calen_time __spent_year_of_days1 (calen *cal){
   calen_time caltime = 0;
-  int count = (cal->year -1) / 400;
+  unsigned int count = (cal->year -1) / 400;
   while (count--){
     caltime += (365 * 303) + (366 * 97);
   }
@@ -67,8 +67,8 @@ static calen_time __spent_year_of_days1 (calen *cal){
 
 static calen_time __spent_year_of_days2 (calen *cal){
   calen_time caltime = 0;
-  int yearm = cal->year % 400;
-  int year;
+  unsigned int yearm = cal->year % 400;
+  unsigned int year;
   for (year = 1; year < yearm; year++){
     caltime += __uruup(year) ? 366 : 365;
   }

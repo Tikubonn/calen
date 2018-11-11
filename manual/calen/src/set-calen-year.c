@@ -9,7 +9,7 @@
  * @return return an integer that is if success then 0, otherwise non-zero.
  */
 
-int set_calen_year (int year, calen *calout){
+int set_calen_year (unsigned int year, calen *calout){
   if (!(1 <= year)){
     return 1;
   }

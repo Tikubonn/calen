@@ -9,12 +9,12 @@
  */
 
 int init_calen_from_time (calen_time caltime, calen *calout){
-  int year;
+  unsigned int year;
   for (year = 1; 1; year++){
-    int month;
+    unsigned int month;
     for (month = 1; month <= 12; month++){
-      int days = calen_month_of_days(year, month);
-      int dayssecond = days * DAY;
+      unsigned int days = calen_month_of_days(year, month);
+      unsigned int dayssecond = days * DAY;
       if (caltime < dayssecond){
         return init_calen(
           year,

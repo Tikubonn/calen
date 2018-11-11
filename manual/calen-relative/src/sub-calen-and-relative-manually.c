@@ -12,7 +12,7 @@
  * @return return an integer that is if success then 0, otherwise non-zero.
  */
 
-static int __decrease_calen_year (int year, calen *calio){
+static int __decrease_calen_year (unsigned int year, calen *calio){
   if (calio->year <= year){
     return 1; /* calculated result was underflowed */
   }
@@ -31,7 +31,7 @@ static int __decrease_calen_year (int year, calen *calio){
  * @return return an integer that is if success then 0, otherwise non-zero.
  */
 
-static int __decrease_calen_month (int month, calen *calio){
+static int __decrease_calen_month (unsigned int month, calen *calio){
   if (month < calio->month){
     calio->month = calio->month - month;
     return 0;

@@ -9,7 +9,7 @@
  * @return return an integer that is if success then 0, otherwise non-zero.
  */
 
-int set_calen_month (int month, calen *calout){
+int set_calen_month (unsigned int month, calen *calout){
   if (!(1 <= month && month <= 12)){
     return 1;
   }

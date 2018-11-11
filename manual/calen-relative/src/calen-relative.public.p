@@ -7,10 +7,10 @@
  */
 
 typedef struct calen_relative {
-  int year;
-  int month;
-  int day;
-  int hour;
-  int minute;
-  int second;
+  unsigned int year;
+  unsigned int month;
+  unsigned int day;
+  unsigned int hour;
+  unsigned int minute;
+  unsigned int second;
 } calen_relative;

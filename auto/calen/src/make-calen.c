@@ -1,7 +1,7 @@
 #include <calen.private>
 #include <stdlib.h>
 
-calen *make_calen (int year, int month, int day, int hour, int minute, int second){
+calen *make_calen (unsigned int year, unsigned int month, unsigned int day, unsigned int hour, unsigned int minute, unsigned int second){
   calen temp;
   if (init_calen(year, month, day, hour, minute, second, &temp)){
     return NULL;

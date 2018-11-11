@@ -8,7 +8,7 @@
  * @return return an integer that is if success then 0, otherwise non-zero.
  */
 
-int set_calen_second (int second, calen *calout){
+int set_calen_second (unsigned int second, calen *calout){
   if (!(0 <= second && second <= 59)){
     return 1;
   }

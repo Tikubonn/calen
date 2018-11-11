@@ -1,4 +1,4 @@
 #pragma once
 #include <calen.public>
 
-extern calen *make_calen (int, int, int, int, int, int);
+extern calen *make_calen (unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int);

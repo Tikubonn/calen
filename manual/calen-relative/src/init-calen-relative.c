@@ -13,7 +13,7 @@
  * @return return an integer that is if success then 0, otherwise non-zero.
  */
 
-int init_calen_relative (int year, int month, int day, int hour, int minute, int second, calen_relative *relout){
+int init_calen_relative (unsigned int year, unsigned int month, unsigned int day, unsigned int hour, unsigned int minute, unsigned int second, calen_relative *relout){
   relout->year = year;
   relout->month = month;
   relout->day = day;
