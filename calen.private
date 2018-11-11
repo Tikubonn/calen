@@ -1,0 +1,4 @@
+#pragma once
+#include "manual/manual.private"
+#include "auto/auto.private"
+#include "tmp/tmp.h"
