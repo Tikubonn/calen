@@ -1,4 +1,5 @@
 #include <calen.private>
+#define min(a, b) ((a)<(b)?(a):(b))
 
 /**
  * @fn
@@ -13,5 +14,7 @@ int set_calen_month (int month, calen *calout){
     return 1;
   }
   calout->month = month;
+  int days = calen_month_of_days(calout->year, month);
+  calout->day = min(calout->day, days);
   return 0;
 }
