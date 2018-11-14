@@ -1,8 +1,7 @@
 #include <calen.private>
 
 /**
- * @fn
- * setup a calen instance with arguments.
+ * @brief setup a calen instance with arguments.
  * @param (year) must be over 1.
  * @param (month) must be between 1 to 12.
  * @param (day) must be between 1 to month of days.

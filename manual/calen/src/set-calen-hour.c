@@ -1,8 +1,7 @@
 #include <calen.private>
 
 /**
- * @fn
- * set hour to calen instance.
+ * @brief set hour to calen instance.
  * @param (hour) must be between 0 to 23.
  * @param (calout) setup target that will be modified.
  * @return return an integer that is if success then 0, otherwise non-zero.

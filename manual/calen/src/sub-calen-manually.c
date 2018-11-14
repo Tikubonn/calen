@@ -1,8 +1,7 @@
 #include <calen.private>
 
 /**
- * @fn
- * sub calen instance by instance then write result to another instance.
+ * @brief sub calen instance by instance then write result to another instance.
  * if calculate result was underflowed, this abort processing then return non-zero integer.
  * @param (cala) must be a valid instance that be maken by routine on this library.
  * @param (calb) must be a valid instance that be maken by routine on this library.

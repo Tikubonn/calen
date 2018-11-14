@@ -2,8 +2,7 @@
 #define min(a,b) ((a)<(b)?(a):(b))
 
 /**
- * @fn
- * set year to calen instance.
+ * @brief set year to calen instance.
  * @param (year) must be over 1.
  * @param (calout) setup target that will be modified.
  * @return return an integer that is if success then 0, otherwise non-zero.

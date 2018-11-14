@@ -2,8 +2,7 @@
 #define min(a,b) ((a)<(b)?(a):(b))
 
 /**
- * @fn
- * increase calen instance of year.
+ * @brief increase calen instance of year.
  * @detail internal routine 
  * @param (year) must be over 0.
  * @param (calio) target instance that will be modified.
@@ -16,8 +15,7 @@ static int __increase_calen_year (unsigned int year, calen *calio){
 }
 
 /**
- * @fn
- * increase calen instance of year.
+ * @brief increase calen instance of year.
  * @detail internal routine 
  * @param (year) must be over 0.
  * @param (calio) target instance that will be modified.
@@ -34,8 +32,7 @@ static int __increase_calen_month (unsigned int month, calen *calio){
 }
 
 /**
- * @fn
- * increase calen instance of year.
+ * @brief increase calen instance of year.
  * @detail internal routine 
  * @param (year) must be over 0.
  * @param (calio) target instance that will be modified.
@@ -49,8 +46,7 @@ static int __adjust_calen_day (calen *calio){
 }
 
 /**
- * @fn 
- * add calen instance by calen_relative instance then write result to another instance.
+ * @brief add calen instance by calen_relative instance then write result to another instance.
  * @param (cal) must be valid instance that is maken by routine from this library.
  * @param (rel) must be valid instance that is maken by routine from this library.
  * @return return an integer that is if success then 0, otherwise non-zero.

@@ -2,8 +2,7 @@
 #define min(a, b) ((a)<(b)?(a):(b))
 
 /**
- * @fn
- * decrease calen instance of year.
+ * @brief decrease calen instance of year.
  * decreased instance of date was undeflowed,
  * this routine abort processing and return non-zero integer.
  * @detail internal routine 
@@ -21,8 +20,7 @@ static int __decrease_calen_year (unsigned int year, calen *calio){
 }
 
 /**
- * @fn
- * decrease calen instance of month.
+ * @brief decrease calen instance of month.
  * decreased instance of date was undeflowed,
  * this routine abort processing and return non-zero integer.
  * @detail internal routine 
@@ -47,8 +45,7 @@ static int __decrease_calen_month (unsigned int month, calen *calio){
 }
 
 /**
- * @fn
- * decrease calen instance of day.
+ * @brief decrease calen instance of day.
  * decreased instance of date was undeflowed,
  * this routine abort processing and return non-zero integer.
  * @detail internal routine 
@@ -64,8 +61,7 @@ static int __adjust_calen_month (calen *calio){
 }
 
 /**
- * @fn 
- * sub calen instance by calen_relative instance then write result to another instance.
+ * @brief sub calen instance by calen_relative instance then write result to another instance.
  * @param (cal) must be valid instance that is maken by routine from this library.
  * @param (rel) must be valid instance that is maken by routine from this library.
  * @return return an integer that is if success then 0, otherwise non-zero.

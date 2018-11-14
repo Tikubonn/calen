@@ -1,8 +1,7 @@
 #include <calen.private>
 
 /**
- * @fn
- * add calen instance by instance then write result to another instance.
+ * @brief add calen instance by instance then write result to another instance.
  * @param (cala) must be a valid instance that be maken by routine on this library.
  * @param (calb) must be a valid instance that be maken by routine on this library.
  * @param (calout) setup target that will be modified.

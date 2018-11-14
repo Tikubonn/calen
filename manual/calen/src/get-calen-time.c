@@ -2,8 +2,7 @@
 #include <stdbool.h>
 
 /**
- * @fn
- * check the year is leap year or not.
+ * @brief check the year is leap year or not.
  * @param (year) must be over 1.
  * @return return checked result as boolean.
  */
@@ -16,8 +15,7 @@ static bool __uruup (unsigned int year){
 }
 
 /**
- * @fn
- * get spent month of days by arguments.
+ * @brief get spent month of days by arguments.
  * @param (year) must be over 1.
  * @param (month) must be between 1 to 12.
  * @return spent month of days as calen_time type.
@@ -42,8 +40,7 @@ static calen_time __spent_month_of_days (unsigned int year, int month){
 }
 
 /**
- * @fn
- * get spent year of days by calen instance.
+ * @brief get spent year of days by calen instance.
  * this routine optimized that calculate date as large block.
  * @param (cal) must be valid instance that is made by routine in this library.
  * @return calculated spent year of days.
@@ -59,8 +56,7 @@ static calen_time __spent_year_of_days1 (calen *cal){
 }
 
 /**
- * @fn
- * get rest of days of `__spent_year_of_days1`.
+ * @brief get rest of days of `__spent_year_of_days1`.
  * @param (cal) must be valid instance that is made by routine in this library.
  * @return calculated spent year of days.
  */
@@ -76,8 +72,7 @@ static calen_time __spent_year_of_days2 (calen *cal){
 }
 
 /**
- * @fn
- * return a total seconds between 1/1/1 00:00:00 to calen instance.
+ * @brief return a total seconds between 1/1/1 00:00:00 to calen instance.
  * this trust a given argument, so this routine dont check the arguments.
  * @param (cal) must be a valid instance that be maken by routine on this library.
  * @return return total seconds as integer.

@@ -2,8 +2,7 @@
 #include <stdbool.h>
 
 /**
- * @fn 
- * this check argument of year is leap year or not.
+ * @brief this check argument of year is leap year or not.
  * this dont check argument, so you always must give this valid argument.
  * @param (year) must be over 1.
  * @return return checked result.

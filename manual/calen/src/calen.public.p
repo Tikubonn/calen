@@ -9,8 +9,7 @@
 #define CALEN_SATURDAY 6
 
 /**
- * @typedef 
- * this type can contain the date.
+ * @brief this type can contain the date.
  * dont modify member value with manually!
  * you should modify this type with routine that is provided by this library.
  */
@@ -25,16 +24,14 @@ typedef struct calen {
 } calen;
 
 /**
- * @typedef 
- * this type can contain the total seconds from <1/1/1 00:00:00>.
+ * @brief this type can contain the total seconds from <1/1/1 00:00:00>.
  * this type must be 64 bits unsigned integer.
  */
 
 typedef uint64_t calen_time;
 
 /**
- * @typedef 
- * this type can contain the identify of weekday.
+ * @brief this type can contain the identify of weekday.
  */
 
 typedef unsigned int calen_weekday;

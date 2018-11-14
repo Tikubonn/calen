@@ -1,8 +1,7 @@
 #include <calen.private>
 
 /**
- * @fn
- * change the calen instances weekday with date increment.
+ * @brief change the calen instances weekday with date increment.
  * @param (weekday) weekday as constant integer.
  * @param (calio) this instance will be modified.
  * @return return an integer that is if success then 0, otherwise non-zero.

@@ -1,8 +1,7 @@
 #include <calen.private>
 
 /**
- * @fn 
- * setup calen_relation instance with arguments.
+ * @brief setup calen_relation instance with arguments.
  * @param (year) must be over 0.
  * @param (month) must be over 0.
  * @param (day) must be over 0.

@@ -2,8 +2,7 @@
 #define min(a, b) ((a)<(b)?(a):(b))
 
 /**
- * @fn
- * set month to calen instance.
+ * @brief set month to calen instance.
  * @param (month) must be between 1 to 12.
  * @param (calout) setup target that will be modified.
  * @return return an integer that is if success then 0, otherwise non-zero.

@@ -1,8 +1,7 @@
 #include <calen.private>
 
 /**
- * @fn
- * change the calen instances weekday with date decrement.
+ * @brief change the calen instances weekday with date decrement.
  * if calculate result was underflowed, this abort processing and return non-zero integer.
  * @param (weekday) weekday as constant integer.
  * @param (calio) this instance will be modified.

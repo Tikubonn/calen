@@ -1,8 +1,7 @@
 #include <calen.private>
 
 /**
- * @fn 
- * get weekday from calen instance.
+ * @brief get weekday from calen instance.
  * @param (cal) must be valid instance that is made by routine on this library.
  * @return return weekday as integer.
  */

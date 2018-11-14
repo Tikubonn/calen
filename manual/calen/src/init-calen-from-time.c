@@ -1,8 +1,7 @@
 #include <calen.private>
 
 /**
- * @fn
- * setup a calen instance with argument of caltime.
+ * @brief setup a calen instance with argument of caltime.
  * @param (caltime) total seconds from 1/1/1 00:00:00.
  * @param (calout) setup target that will be modified.
  * @return this return an integer that is if success then 0, otherwise non-zero.

@@ -1,8 +1,7 @@
 #pragma once
 
 /**
- * @typedef 
- * this type can contain the distance of date.
+ * @brief this type can contain the distance of date.
  * you can use this type for calculation by date.
  */
 

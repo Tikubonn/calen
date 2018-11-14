@@ -2,8 +2,7 @@
 #include <stdbool.h>
 
 /**
- * @fn
- * compare two instance that like as cala == calb.
+ * @brief compare two instance that like as cala == calb.
  * @param (cala) must be a valid instance that be maken by routine on this library.
  * @param (calb) must be a valid instance that be maken by routine on this library.
  * @return return a compared result as boolean.
